@@ -117,25 +117,25 @@ window.onload = function () {
             a.style.display = "block";
           }
         });
-      } else if (filter.textContent.trim() == "Joggers") {
+      } else if (filter.textContent.trim() == "top") {
         Array.from(articleList).forEach(function (a) {
-          if (!(a.dataset.category.trim() == "joggers")) {
+          if (!(a.dataset.category.trim() == "top")) {
             a.style.display = "none";
           } else {
             a.style.display = "block";
           }
         });
-      } else if (filter.textContent.trim() == "Dresses") {
+      } else if (filter.textContent.trim() == "dress") {
         Array.from(articleList).forEach(function (a) {
-          if (!(a.dataset.category.trim() == "dresses")) {
+          if (!(a.dataset.category.trim() == "dress")) {
             a.style.display = "none";
           } else {
             a.style.display = "block";
           }
         });
-      } else if (filter.textContent.trim() == "Crochet Bags") {
+      } else if (filter.textContent.trim() == "bag") {
         Array.from(articleList).forEach(function (a) {
-          if (!(a.dataset.category.trim() == "crochet bags")) {
+          if (!(a.dataset.category.trim() == "bag")) {
             a.style.display = "none";
           } else {
             a.style.display = "block";
